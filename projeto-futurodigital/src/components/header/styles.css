@@ -1,0 +1,33 @@
+/* Reseta as margens padrão do navegador */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #001050d3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+
+.header-title {
+    font-size: 25px;
+}
+
+.header-nav{
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.header-nav a {
+  color: white;
+  text-decoration: none;
+}
